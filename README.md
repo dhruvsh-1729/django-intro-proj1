@@ -132,6 +132,3 @@ This project is a simple web application built with Django for the backend and R
 4. **Access the React App:**
 
    - The frontend should be accessible at `http://localhost:3000`.
-
-
-If you have any questions, feel free to reach out to me at [your-email@example.com](mailto:your-email@example.com).

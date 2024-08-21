@@ -133,14 +133,5 @@ This project is a simple web application built with Django for the backend and R
 
    - The frontend should be accessible at `http://localhost:3000`.
 
-## Contributing
-
-If you’d like to contribute to this project, please fork the repository and use a feature branch. Pull requests are warmly welcome.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
-
-## Contact
 
 If you have any questions, feel free to reach out to me at [your-email@example.com](mailto:your-email@example.com).

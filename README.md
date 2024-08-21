@@ -10,7 +10,6 @@ This project is a simple web application built with Django for the backend and R
 - **Django Backend**: Provides API endpoints for managing messages and notes.
 - **React Frontend**: A dynamic, responsive user interface for interacting with the backend APIs.
 - **CRUD Operations**: Users can Create, Read, Update, and Delete messages and notes.
-- **Styled Components**: Aesthetic and user-friendly design with interactive elements.
 
 ## Project Structure
 
@@ -133,25 +132,6 @@ This project is a simple web application built with Django for the backend and R
 4. **Access the React App:**
 
    - The frontend should be accessible at `http://localhost:3000`.
-
-### Environment Variables
-
-- **Backend**: You may want to configure environment variables for Django settings like `SECRET_KEY` and database configurations.
-- **Frontend**: You can define environment variables in a `.env` file to configure API endpoints and other settings.
-
-### Deployment (Bonus)
-
-For deployment, consider the following architecture:
-
-- **AWS S3 and CloudFront** for serving the React frontend.
-- **AWS EC2** for hosting the Django application.
-- **AWS RDS** for managing the PostgreSQL database.
-
-A 3-tier architecture diagram might look like this:
-
-- **Presentation Layer**: React app served from S3/CloudFront.
-- **Application Layer**: Django app running on EC2.
-- **Data Layer**: PostgreSQL database hosted on RDS.
 
 ## Contributing
 
